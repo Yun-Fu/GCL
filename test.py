@@ -3,6 +3,10 @@ from torch_geometric.datasets import Coauthor
 import os.path as osp
 import torch.nn.functional as F
 import torch
+a=torch.rand((4,7))
+b=a.diag()
+print(b)
+exit()
 def my_function(**kwargs):
     if 'a' in kwargs:
         print("a:", kwargs['a'])
